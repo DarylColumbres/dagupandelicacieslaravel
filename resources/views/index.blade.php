@@ -25,46 +25,44 @@
 </head>
 <body class="p-5">
     <div class="container">
-<<<<<<< HEAD
+
         <h1 class="text-center mb-4">RECIPES ADMIN PANEL</h1>
-=======
+
         <h1 class="text-center mb-3">MENU ADMIN</h1>
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+
         @if (Session::has('success'))
         <div class="alert alert-success text-center" role="alert">
             {{ Session::get('success') }}
         </div>
         @endif
-<<<<<<< HEAD
+
 
         <div class="d-flex justify-content-between mb-3">
             <a href="{{ route('/') }}" class="btn btn-danger shadow">Logout</a>
             <a href="{{ route('create') }}" class="btn btn-primary shadow">Add New Product</a>
-=======
+
         <div class="d-flex justify-content-end mb-3">
             <a href="{{route('create')}}" class="btn btn-primary shadow">Add New Product</a>
             <a href="{{route('login')}}" class="btn btn-primary shadow">Log out</a>
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+
         </div>
 
         <table class="table table-bordered">
-<<<<<<< HEAD
+
             <thead class="table-light text-center">
-=======
-            <thead class="text-center">     
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+
+            <thead class="text-center">
+
                 <tr>
                     <th>ID</th>
                     <th>Name</th>
                     <th>Image</th>
                     <th>Description</th>
-<<<<<<< HEAD
                     <th>Price</th>
                     <th>Ingredients</th>
                     <th>How to Cook</th>
-=======
                     <th>Total cost</th>
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+
                     <th class="text-center">Actions</th>
                 </tr>
             </thead>

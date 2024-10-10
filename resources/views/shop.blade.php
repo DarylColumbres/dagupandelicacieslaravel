@@ -1,13 +1,9 @@
-<<<<<<< HEAD
-<!DOCTYPE html>
-=======
  <!DOCTYPE html>
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
   <title>Dagupan Delicacy Popular Foods</title>
   <link rel="stylesheet" href="{{ asset('cssfile/shop.css') }}">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -65,15 +61,15 @@
 </html>
 =======
   <title>Recipe Website</title>
-  <!-- Bootstrap CSS -->
+
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <style>
-    /* Custom styles can be added here */
+
   </style>
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     Menu Website
   </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -96,7 +92,7 @@
 
       <div class="container mt-4">
           <h2 class="mb-3 text-center">Phinma Popular Foods</h2>
-          <p class="text-center mb-5">Browse through our mouthwatering dishes! In Dagupan</p>    
+          <p class="text-center mb-5">Browse through our mouthwatering dishes! In Dagupan</p>
           @if (Session::has('success'))
           <div class="alert alert-success text-center" role="alert">
               {{ Session::get('success') }}
@@ -105,7 +101,7 @@
           @yield('content')
       </div>
 
-      <!-- Bootstrap Bundle with Popper -->
+
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

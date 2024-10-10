@@ -16,7 +16,6 @@ class MenuController extends Controller
         $menu = Menu::all();
         return view ('products',compact('menu'));
     }
-<<<<<<< HEAD
     
     public function recipe($id){
         $menu = Menu::find($id);
@@ -28,10 +27,7 @@ class MenuController extends Controller
         return view ('tutorial',compact('menu'));
     }
     
-=======
-
-
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+    
     public function menu(){
         return view ('create');
     }

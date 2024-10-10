@@ -4,11 +4,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MenuController;
-<<<<<<< HEAD
-
-=======
 use App\Http\Controllers\AuthController;
->>>>>>> e28d8d047f8a90b1879ea904ca889f5a8e87ed55
+
 /*
 |--------------------------------------------------------------------------
 | API Routes

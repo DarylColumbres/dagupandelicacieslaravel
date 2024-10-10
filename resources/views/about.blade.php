@@ -99,8 +99,6 @@
         <h2>2 years of Experience</h2>
     </div>
 
-<<<<<<< HEAD
-=======
     <div class="profile-card">
         <img class="profile-picture" src="{{asset('images/fung.png')}}" alt="Profile Picture">
         <h1>Christopher Fung</h1>
