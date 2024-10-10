@@ -1,0 +1,145 @@
+body {
+    background-color: #002b5c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    width: 850px;
+    height: 550px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-box {
+    display: flex;
+    width: 100%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Add shadow here */
+}
+
+.welcome-back {
+    width: 45%;
+    background-color: #005f88;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.welcome-back p {
+    font-size: 1rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.sign-up-btn {
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.sign-up-btn:hover {
+    background-color: #ffffff;
+    color: #005f88;
+}
+
+.form-box {
+    width: 55%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100%;
+}
+
+.form-box h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #005f88;
+    font-size: 1.8rem;
+}
+
+.inputbox {
+    position: relative;
+    margin: 15px 0;
+    width: 100%;
+}
+
+.inputbox input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+.inputbox label {
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.inputbox ion-icon {
+    position: absolute;
+    right: 15px;
+    top: calc(50% + 5px);
+    transform: translateY(-50%);
+    color: #005f88;
+    font-size: 1.2rem;
+}
+
+.button {
+    background-color: #036f9d;
+    color: #ffffff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background-color: #025a7a;
+}
+
+.register {
+    font-size: 0.85em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.register p a {
+    color: #007bbf;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 15px;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
